@@ -2,6 +2,7 @@ resource "aws_s3_bucket" "positive1" {
   bucket = "example"
 }
 
+
 // comment
 resource "aws_s3_bucket_public_access_block" "positive2" {
   bucket = aws_s3_bucket.example.id
